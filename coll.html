@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Collection Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f4f4f4;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+	  color:black;
+    }
+
+    #search-bar {
+      display: flex;
+      align-items: center;
+    }
+
+    #search-icon {
+      margin-right: 5px;
+    }
+
+    #heart-icon,
+    #bag-icon {
+      margin-left: 10px;
+      cursor: pointer;
+	  align:right;
+    }
+
+ main {
+            padding: 20px;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+
+    section {
+      padding: 20px;
+    }
+
+    /* Add your product styles here */
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div id="search-bar">
+      <i id="search-icon" class="fas fa-search" ></i>
+      <input type="text" placeholder="Search products here">
+    </div>
+    <i id="heart-icon" class="fas fa-heart"></i>
+    <i id="bag-icon" class="fas fa-shopping-bag"></i>
+  </header>
+
+  <main>
+        <div class="product">Product 1</div>
+        <div class="product">Product 2</div>
+        <div class="product">Product 3</div>
+        <!-- Add more product options as needed -->
+    </main>
+
+
+
+
+ <section>
+    <!-- Your product options go here -->
+    <div class="product">Product 1</div>
+    <div class="product">Product 2</div>
+    <div class="product">Product 3</div>
+    <!-- Add more product divs as needed -->
+  </section>
+
+</body>
+</html>
